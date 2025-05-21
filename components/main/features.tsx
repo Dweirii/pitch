@@ -44,31 +44,26 @@ const features = [
     icon: <Code className="h-6 w-6 text-blue-400" />,
     title: "Live Project Labs",
     description: "Work on real challenges in live, mentor-led rooms — build, present, and iterate in real time.",
-    image: "/placeholder.svg?height=400&width=600",
   },
   {
     icon: <Zap className="h-6 w-6 text-blue-400" />,
     title: "AI-Powered Learning Engine",
     description: "An intelligent algorithm that adapts content to your pace, skills, and interests — just like your favorite social feed.",
-    image: "/placeholder.svg?height=400&width=600",
   },
   {
     icon: <Globe className="h-6 w-6 text-blue-400" />,
     title: "Arabic-First Experience",
     description: "Purpose-built for Arabic-speaking learners — native content, cultural context, and localized support.",
-    image: "/placeholder.svg?height=400&width=600",
   },
   {
     icon: <Users className="h-6 w-6 text-blue-400" />,
     title: "Community That Builds Together",
     description: "Join a tribe of learners, mentors, and creators — collaborate, get feedback, and grow together.",
-    image: "/placeholder.svg?height=400&width=600",
   },
   {
     icon: <BarChart3 className="h-6 w-6 text-blue-400" />,
     title: "Smart Progress Tracking",
     description: "Visual dashboards, adaptive learning paths, and performance insights tailored to your growth.",
-    image: "/placeholder.svg?height=400&width=600",
   },
 ];
 
@@ -158,17 +153,6 @@ const features = [
               </div>
               
               <div className="relative">
-                <div className="overflow-hidden rounded-xl border border-gray-800">
-                  <motion.img
-                    key={activeFeature}
-                    src={features[activeFeature].image}
-                    alt={features[activeFeature].title}
-                    className="h-full w-full object-cover"
-                    initial={{ opacity: 0, scale: 1.05 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5 }}
-                  />
-                </div>
                 <div className="absolute -bottom-4 -right-4 h-24 w-24 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-600/20 blur-2xl"></div>
               </div>
             </div>

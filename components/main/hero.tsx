@@ -52,8 +52,6 @@ export function HeroSection() {
   return (
     <div className="relative overflow-hidden bg-[#0c0c0e] text-white">
       <Background />
-      <div className="absolute left-0 top-1/4 h-64 w-64 rounded-full bg-blue-500/10 blur-3xl"></div>
-      <div className="absolute right-0 top-1/2 h-64 w-64 rounded-full bg-purple-500/10 blur-3xl"></div>
 
       <div className="relative z-10 mx-auto flex min-h-[calc(100vh-4rem)] max-w-7xl flex-col items-center justify-center px-4 py-20 text-center sm:px-6 lg:px-8">
         <motion.div

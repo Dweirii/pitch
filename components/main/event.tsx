@@ -9,16 +9,14 @@ export function EventsSection() {
       location: "Dubai, UAE",
       date: "March 2025",
       description: "Showcasing Learnify at the leading content & education tech expo in the MENA region.",
-      image: "/pic12.jpg",
-      icon: "🏙️",
+      image: "/pic22.jpg",
     },
     {
       title: "King Abdullah II School of IT Expo",
       location: "Amman, Jordan",
       date: "February 2025",
       description: "Representing innovation at the University of Jordan's student startup showcase.",
-      image: "/pic22.jpg",
-      icon: "🎓",
+      image: "/pic12.jpg",
     },
     {
       title: "Learnify Demo — AlJude",
@@ -26,12 +24,11 @@ export function EventsSection() {
       date: "January 2025",
       description: "We hosted a live stream with real users and achieved 200+ active participants in just one hour.",
       image: "/pic31.jpg",
-      icon: "🌍",
     },
   ]
 
   return (
-    <div className="relative overflow-hidden bg-[#121212] text-white">
+    <div className="relative overflow-hidden bg-[#121212] text-white" id="events-section">
       <Background />
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
@@ -59,9 +56,6 @@ export function EventsSection() {
 
                 {/* Event image */}
                 <div className="relative aspect-video w-full overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-900/30 to-purple-900/30 text-4xl">
-                    {event.icon}
-                  </div>
                   <img
                     src={event.image || "/placeholder.svg"}
                     alt={event.title}
@@ -100,8 +94,7 @@ export function EventsSection() {
               variant="outline"
               className="group rounded-full border-gray-700 bg-transparent px-8 py-6 text-base font-semibold text-white transition-all hover:border-purple-500 hover:bg-black/30 hover:text-purple-400 hover:shadow-[0_0_15px_rgba(124,58,237,0.3)]"
             >
-              <ExternalLink className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-              More Events
+              More Events are coming soon!
             </Button>
           </div>
         </div>

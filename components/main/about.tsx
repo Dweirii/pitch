@@ -80,8 +80,6 @@ export function AboutSection() {
       <Background />
 
       {/* Decorative elements */}
-      <div className="absolute left-1/4 top-1/3 h-64 w-64 rounded-full bg-blue-500/5 blur-3xl"></div>
-      <div className="absolute right-1/4 bottom-1/3 h-64 w-64 rounded-full bg-purple-500/5 blur-3xl"></div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}

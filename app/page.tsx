@@ -9,6 +9,7 @@ import { Footer } from "@/components/main/footer"
 export default function Home() {
   return (
     <>
+
       <Navbar />
       <main className="pt-16">
         <HeroSection />

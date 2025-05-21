@@ -106,7 +106,7 @@ export function HeroSection() {
 
           <motion.p className="text-sm text-gray-400 sm:text-base" variants={item}>
             <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-green-500 mr-2"></span>
-            Launching soon. Be among the first to shape the future of learning.
+            Learnify is the launchpad for hands-on learners. We connect students with real-world challenges through live sessions and project-based learning, empowering them to build, fail, and succeed — just like in the real world.
           </motion.p>
         </motion.div>
 

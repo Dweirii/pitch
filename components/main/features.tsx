@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Code, MessageSquare, Globe, Users, LineChart, ArrowRight } from 'lucide-react'
+import { Code, Globe, Users, BarChart3, Zap } from 'lucide-react'
 import { Background } from "@/components/main/background"
-import { Button } from "@/components/ui/button"
+
 
 export function FeaturesSection() {
   const [isVisible, setIsVisible] = useState(false)
@@ -39,38 +39,39 @@ export function FeaturesSection() {
     return () => clearInterval(interval)
   }, [isVisible])
 
-  const features = [
-    {
-      icon: <Code className="h-6 w-6 text-blue-400" />,
-      title: "Live Project Rooms",
-      description: "Build real-world projects in live, instructor-led rooms.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      icon: <MessageSquare className="h-6 w-6 text-blue-400" />,
-      title: "AI Chat Assistant",
-      description: "Get instant answers and feedback powered by smart AI chatbots.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      icon: <Globe className="h-6 w-6 text-blue-400" />,
-      title: "Arabic-First Experience",
-      description: "A platform built from the ground up for Arabic-speaking learners.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      icon: <Users className="h-6 w-6 text-blue-400" />,
-      title: "Real Community Vibes",
-      description: "Engage with peers, mentors, and professionals – all in one space.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      icon: <LineChart className="h-6 w-6 text-blue-400" />,
-      title: "Track Your Growth",
-      description: "Visual progress tracking, skill maps, and personalized learning paths.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-  ]
+const features = [
+  {
+    icon: <Code className="h-6 w-6 text-blue-400" />,
+    title: "Live Project Labs",
+    description: "Work on real challenges in live, mentor-led rooms — build, present, and iterate in real time.",
+    image: "/placeholder.svg?height=400&width=600",
+  },
+  {
+    icon: <Zap className="h-6 w-6 text-blue-400" />,
+    title: "AI-Powered Learning Engine",
+    description: "An intelligent algorithm that adapts content to your pace, skills, and interests — just like your favorite social feed.",
+    image: "/placeholder.svg?height=400&width=600",
+  },
+  {
+    icon: <Globe className="h-6 w-6 text-blue-400" />,
+    title: "Arabic-First Experience",
+    description: "Purpose-built for Arabic-speaking learners — native content, cultural context, and localized support.",
+    image: "/placeholder.svg?height=400&width=600",
+  },
+  {
+    icon: <Users className="h-6 w-6 text-blue-400" />,
+    title: "Community That Builds Together",
+    description: "Join a tribe of learners, mentors, and creators — collaborate, get feedback, and grow together.",
+    image: "/placeholder.svg?height=400&width=600",
+  },
+  {
+    icon: <BarChart3 className="h-6 w-6 text-blue-400" />,
+    title: "Smart Progress Tracking",
+    description: "Visual dashboards, adaptive learning paths, and performance insights tailored to your growth.",
+    image: "/placeholder.svg?height=400&width=600",
+  },
+];
+
 
   const container = {
     hidden: { opacity: 0 },

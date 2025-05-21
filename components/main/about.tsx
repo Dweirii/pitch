@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { CheckCircle, Zap, Brain, Users, Globe, Smartphone, ArrowRight } from "lucide-react"
 import { Background } from "@/components/main/background"
-import { Button } from "@/components/ui/button"
 
 export function AboutSection() {
   const [isVisible, setIsVisible] = useState(false)
@@ -31,17 +30,17 @@ export function AboutSection() {
     {
       icon: <Zap className="h-6 w-6 text-blue-400" />,
       title: "Live Learning, Not Just Videos",
-      description: "Real-time, interactive sessions guided by industry mentors.",
+      description: "Engage in real-time sessions led by experts — ask questions, get feedback, and learn by doing.",
     },
     {
       icon: <CheckCircle className="h-6 w-6 text-blue-400" />,
       title: "Project-Based Curriculum",
-      description: "Learn by building actual products and solving real problems.",
+      description: "Build real products. Solve real problems. Gain experience that actually matters.",
     },
     {
       icon: <Brain className="h-6 w-6 text-blue-400" />,
-      title: "AI-Powered Support",
-      description: "Smart assistance through chatbots trained on your course content.",
+      title: "AI-Powered System",
+      description: "Smart system through AI-Recommendation system trained on your experance in our platform.",
     },
     {
       icon: <Users className="h-6 w-6 text-blue-400" />,
@@ -51,7 +50,7 @@ export function AboutSection() {
     {
       icon: <Globe className="h-6 w-6 text-blue-400" />,
       title: "Built for Arabic-Speaking Learners",
-      description: "Native Arabic content with localized support.",
+      description: "Native Arabic content and support, designed for regional learners without compromise.",
     },
     {
       icon: <Smartphone className="h-6 w-6 text-blue-400" />,
@@ -103,8 +102,8 @@ export function AboutSection() {
             ?
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-300">
-            We're reimagining education for the digital age, making high-quality learning accessible, engaging, and
-            effective for everyone.
+          Learnify is reimagining education for the modern world.
+          We combine live interaction, project-based learning, and real-world challenges to bridge the gap between theory and application — so learners don’t just study, they build.
           </p>
         </motion.div>
 

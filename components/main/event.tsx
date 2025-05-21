@@ -9,7 +9,7 @@ export function EventsSection() {
       location: "Dubai, UAE",
       date: "March 2025",
       description: "Showcasing Learnify at the leading content & education tech expo in the MENA region.",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/pic12.jpg",
       icon: "🏙️",
     },
     {
@@ -17,7 +17,7 @@ export function EventsSection() {
       location: "Amman, Jordan",
       date: "February 2025",
       description: "Representing innovation at the University of Jordan's student startup showcase.",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/pic22.jpg",
       icon: "🎓",
     },
     {
@@ -25,7 +25,7 @@ export function EventsSection() {
       location: "Virtual Event",
       date: "January 2025",
       description: "We hosted a live stream with real users and achieved 200+ active participants in just one hour.",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/pic31.jpg",
       icon: "🌍",
     },
   ]
